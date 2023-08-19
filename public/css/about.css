@@ -30,9 +30,46 @@ nav {
 }
 
 /* content */
+
+.content-wrap
+{
+    background-image: url(../img/bg-1.png);
+}
+
 .garis
 {
     width: 20px;
     height: 5px;
     border-bottom: 2px solid #E57C23;
+    color: #E57C23;
+}
+
+.name-garis
+{
+    color: white;
+}
+
+.container-fluid.p-0 h1
+{
+    color: #E57C23;
+}
+
+/* responsive */
+@media screen and (min-device-width: 0px) and (max-device-width: 500px) { 
+    /* Home */
+
+    .name-garis
+    {
+        font-size: 20px;
+    }
+
+    .container-fluid.p-0 h1
+    {
+        font-size: 25px;
+    }
+
+    .container-fluid.p-0 p
+    {
+        font-size: 15px;
+    }
 }
