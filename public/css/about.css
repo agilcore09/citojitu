@@ -28,3 +28,11 @@ nav {
 {
     border-color: white !important;
 }
+
+/* content */
+.garis
+{
+    width: 20px;
+    height: 5px;
+    border-bottom: 2px solid #E57C23;
+}
