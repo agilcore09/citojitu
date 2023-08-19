@@ -1,0 +1,30 @@
+/* roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Rubik&display=swap');
+/* open sans font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Roboto:wght@500&family=Rubik&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* content header style */
+.nama
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+nav {
+    background: rgb(15, 12, 60);
+    background: linear-gradient(159deg, rgba(15, 12, 60, 1) 0%, rgba(5, 5, 5, 1) 100%);
+}
+
+.navbar-toggler
+{
+    border-color: white !important;
+}
