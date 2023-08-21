@@ -83,12 +83,12 @@ li i
 .stars h4
 {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .stars img
 {
-    width: 80px;
+    width: 100px;
 }
 
 /* responsive */
@@ -108,5 +108,18 @@ li i
     .container-fluid.p-0 p
     {
         font-size: 15px;
+    }
+
+    .skill h1
+    {
+        font-size: 20px;
+    }
+    .skill h4
+    {
+        font-size: 20px;
+    }
+    .skill img
+    {
+        width: 80px;
     }
 }
