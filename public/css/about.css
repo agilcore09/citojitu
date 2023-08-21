@@ -54,6 +54,43 @@ nav {
     color: #E57C23;
 }
 
+.header-info li
+{
+    list-style-type: none;
+}
+
+.sp-header {
+    font-size: 20px;
+}
+
+li i 
+{
+    margin-right: 10px;
+}
+
+/* skill */
+.skill h1
+{
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.garis-biru
+{
+    border-bottom: 1px solid rgb(38, 0, 255);
+}
+
+.stars h4
+{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.stars img
+{
+    width: 80px;
+}
+
 /* responsive */
 @media screen and (min-device-width: 0px) and (max-device-width: 500px) { 
     /* Home */
