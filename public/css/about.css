@@ -50,10 +50,7 @@ nav {
     color: #E57C23;
 }
 
-.name-garis
-{
-    color: white;
-}
+
 
 .container-fluid.p-0 h1
 {
@@ -121,6 +118,11 @@ li i
 @media screen and (min-device-width: 0px) and (max-device-width: 500px) { 
     /* Home */
 
+    p
+    {
+        font-size: 7px;
+    }
+
     .name-garis
     {
         font-size: 20px;
@@ -142,7 +144,7 @@ li i
     }
     .skill h4
     {
-        font-size: 10px;
+        font-size: 20px;
     }
     .skill img
     {
@@ -152,5 +154,10 @@ li i
     .card
     {
         width: 18rem;
+    }
+
+    .stars h4
+    {
+        font-size: 12px;
     }
 }
